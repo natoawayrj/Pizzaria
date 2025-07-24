@@ -1,0 +1,190 @@
+body{
+    height: 100%;
+}
+
+/*Navbar*/
+
+#brand-logo{
+    width: 70px;
+    background-color: #000;
+}
+.navbar.navbar-expand-lg{
+    background-color: #80040a;
+    font-weight: bold;
+}
+.navbar.navbar-expand-lg a{
+    color: #fff;
+    gap: 5px;
+}
+.navbar.navbar-expand-lg a:hover{
+    color: #80040a;
+    gap: 5px;
+}
+.nav-link:hover{
+   background-color: #eee5e5 ;
+   border-radius: 8px;
+   color: #000;
+}
+.navbar-pizzaria .navbar-collapse {
+  padding: 1rem; 
+  margin-top: 0.5rem; 
+  border-radius: 0.25rem; 
+  background-color:#80040a; 
+}
+.navbar-pizzaria .navbar-nav .nav-link {
+ display: inline-block; 
+ padding: 0.5rem 1rem;
+ border-radius: 0.25rem;
+}
+.navbar-pizzaria .navbar-collapse .nav-link:hover {
+    color: #000;
+    background-color: #fff;
+}
+.navbar-pizzaria .navbar-nav {
+  text-align: center; 
+}
+/*Footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 175px;
+    background-color: #80040a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+footer .imagem{
+    width: 100px;
+    height: 100px   ;
+}
+footer .social-icons{
+    gap: 50px;
+}
+/*Login*/
+.login{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.container{
+    margin-bottom: 20px;
+    
+}
+/*pedido*/
+#main-banner{
+    background-image: url("../img/romana.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-position-y:-300px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-banner h1{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    width: 520px;
+    font-size: 45px;
+}
+#main-container{
+    margin-bottom: 100px;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 50%;
+}
+#main-container h2{
+    margin-bottom: 30px;
+}
+/* banner com carrosel */
+#main-banner2 {
+    /* Removemos o background-image estático e outros estilos desnecessários */
+    width: 100%;
+    height: 300px; /* Define a altura do banner/carrossel */
+}
+
+/* Estilo para garantir que os itens do carrossel e as imagens preencham a altura */
+#main-banner2 .carousel-item {
+    height: 100%;
+}
+
+#main-banner2 .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+    object-position: center;
+}
+/* texto do main-banner */
+#main-banner2 .carousel-caption {
+  /* 1. Resetar o posicionamento padrão do Bootstrap */
+  left: 50%;
+  right: auto; /* Remove a regra 'right' do Bootstrap */
+  bottom: 1.25rem; /* Distância da parte inferior, ajuste se necessário */
+  
+  /* 2. O truque para centralizar perfeitamente */
+  transform: translateX(-50%);
+
+  /* 3. Definir o tamanho desejado para a legenda */
+  width: 60%; /* Defina a largura que preferir, ex: 60% ou 80% */
+  max-width: 700px; /* É uma boa prática definir uma largura máxima */
+
+  /* 4. Seus estilos com uma melhoria */
+  /* Usar RGBA na cor de fundo é melhor que 'opacity', 
+     pois afeta apenas o fundo, não o texto e o botão. */
+  background-color: rgba(0, 0, 0, 0.7); 
+  border-radius: 20px;
+
+  /* 5. Adicionar um espaçamento interno para o conteúdo não colar nas bordas */
+  padding: 1.5rem;
+}
+/* Estilo para a legenda (caption) que já existia */
+#main-banner2 h1{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    width: 520px;
+    font-size: 45px;
+}
+.rodizio{
+    width: 300px;
+    height: 300px;
+}
+.row{
+    margin: 0;
+}
+#pizza-form{
+    max-width: 550px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#pizza-form label{
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: black;
+    border: none;
+}
+
+/* select do gerenciador */
+.status-select{
+    min-width: 150px;
+}
+
+.card-footer{
+    background-color: #ff6d10;
+    color: #fff;
+}
+.card{
+    background-color: #f7d195;
+}
+
