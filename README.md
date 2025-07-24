@@ -61,18 +61,18 @@ Clone o Repositório:
 
 Bash
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Mova os Arquivos: Coloque a pasta do projeto dentro do diretório web do seu servidor (geralmente htdocs no XAMPP).
+git clone https://github.com/natoawayrj/Pizzaria.git
+
 
 Banco de Dados:
 
-Crie um banco de dados chamado pizzaria no seu MySQL (via phpMyAdmin, por exemplo).
+Crie um banco de dados chamado pizzaria no seu MySQL (via phpMyAdmin).
 
 Você precisará criar as tabelas (clientes, pedidos, pizzas, sabores, etc.). A estrutura pode ser entendida analisando os arquivos .php na pasta process/ e no gerenciar.php.
 
 Conexão com o Banco: Verifique o arquivo process/conn.php e, se necessário, altere as variáveis $user, $pass, $db e $host com as suas credenciais do banco de dados.
 
-Acesse no Navegador: Abra seu navegador e acesse http://localhost/nome-da-pasta-do-projeto/.
+Acesse no Navegador: Abra seu navegador e acesse http://localhost/pizzaria/.
 
 🧠 O que Aprendi com Este Projeto
 Como desenvolvedor júnior, este projeto foi uma jornada incrível de aprendizado. Alguns dos pontos que mais me desenvolveram foram:
