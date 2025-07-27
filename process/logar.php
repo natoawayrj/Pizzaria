@@ -30,10 +30,10 @@ if ($method === "POST") {
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // ========================================================================
-        // ALTERAÇÃO: Voltando para a verificação de senha em texto puro
-        // Compara a senha digitada diretamente com a senha salva no banco.
+        // ALTERAÇÃO: Verificando a senha com password_verify()
+        // Compara a senha digitada com o hash salvo no banco.
         // ========================================================================
-        if ($user && $senha == $user['senha']) {
+        if ($user && password_verify($senha, $user['senha'])) {
             
             // Login realizado com sucesso!
             $_SESSION['cliente_id'] = $user['id'];
